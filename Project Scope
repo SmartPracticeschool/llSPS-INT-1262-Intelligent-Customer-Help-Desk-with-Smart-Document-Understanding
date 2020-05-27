@@ -1,0 +1,26 @@
+Project Scope
+
+Project Summary:
+	An ordinary customer care chatbot can answer simple questions to which they are trained like store locations,directions and making appoinments. When a question is asked outside the scope of the chatbot, it tells the customer that the question isn't valid or if offers to connect to an employee of the company.
+	In this project, if the question is about the operation of the device, the application will pass the question to Watson Discovery Service,which is preloaded with owners manual. So now instead of connecting to an employee of the company, the chatbot can return relevant information from the owner's manual to the customer to help solve their  
+problems. 
+	In this project, we use the Smart Document Understanding feature of Watson Discovery to train on what text is important in owner's manual and what is not. This will improve the answers returned from the queries.
+
+Project Requirements:
+	Chatbot, web application, owner's manual, cloud service.
+Functional Requirements:
+	Creating customer care chatbot using Watson Assistant, Using Smart Document understanding to build an enhanced Watson Discovery collection, Creating  an IBM Cloud function that allows chatbot to post queries to Watson Discovery, deploying the application in the cloud. 
+Technical Requirements:
+	Python, IBM Cloud, IBM Watson
+Software Requirements:
+	Jupyter IDE, Git, IBM Cloud, IBM Watson.
+Project Deliverables:
+	A web application integrated with customer care AI chatbot hosted on a cloud service which provides 24x7 service to queries on general information and operations of device.
+Project Team:
+	Kavinkumar C, Amrita Vishwa Vidyapeetham, Coimbatore.
+Project Schedule:
+Week 1 - Project planning and exploring IBM Cloud
+Week 2 - Exploring IBM Watson Services and building the chatbot
+Week 3 - Exploring IBM cloud functions and training the chatbot
+Week 4 - Creating a web app, integrating the chatbot with web app and deploying it in the IBM cloud.
+	
